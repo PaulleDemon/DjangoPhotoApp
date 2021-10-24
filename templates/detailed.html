@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ block.super }} - Photos {% endblock title %}
+
+{% block contents %}
+
+    <a href="/home/">Back</a>
+
+    <p>{{image.photo_title}}</p>
+    <img src="{{image.photo.url}}" alt="{{image.title}}" width='500px' height='300px'>
+    <p>{{image.photo_description}}</p>
+
+{% endblock contents %}

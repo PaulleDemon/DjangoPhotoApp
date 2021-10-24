@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %} {{ block.super }} - Create {% endblock title %}
+
+{% block contents %}
+
+    <form method="POST" enctype='multipart/form-data'>
+        {% csrf_token %}
+        {{create_form.as_ul}}
+
+        <button type="submit">Submit</button>
+    </form>
+
+{% endblock contents %}
+
+
+

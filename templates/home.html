@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %} {{ block.super }} - Home {% endblock title %}
+
+{% block contents %}
+
+    <a href="/create/">Create</a>
+
+    {% if gallery %}
+        <ul>
+            {% for photo in gallery %}
+
+                <li>
+                    <p><a href="/photos/{{photo.id}}">{{photo.photo_title}}</a></p>
+                    <p><img src="{{photo.photo.url}}" alt="" width="300px"></p>
+                </li>
+            
+            {% endfor %}
+        </ul>
+    
+    {% else %}
+        <p> No contents Yet! Come back again </p>
+
+    {% endif %}
+
+{% endblock contents %}
