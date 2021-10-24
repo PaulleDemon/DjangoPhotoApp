@@ -4,7 +4,7 @@
 
 {% block contents %}
 
-    <form method="POST" enctype='multipart/form-data'>
+    <form method="POST" enctype='multipart/form-data'> <!-- The enctype is must for uploading photos-->
         {% csrf_token %}
         {{create_form.as_ul}}
 
