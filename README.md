@@ -1,5 +1,5 @@
 # DjangoPhotoApp
-Django photo app for study deployment:
+Django photo app for studying deployment:
 
 ### project structure:
 ```
