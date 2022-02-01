@@ -2,7 +2,9 @@
 Django photo app for studying deployment:
 
 ### Follow the instruction from here:
-    [Deploying Django to AWS using ElasticBeanstalk (EB):](https://github.com/PaulleDemon/AWS-deployment/blob/master/deploying_django.md)
+
+[Deploying Django to AWS using ElasticBeanstalk (EB)](https://github.com/PaulleDemon/AWS-deployment/blob/master/deploying_django.md)
+    
 ### project structure:
 ```
 .
