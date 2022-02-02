@@ -1,10 +1,7 @@
 # DjangoPhotoApp
-Django photo app for studying deployment:
-
-### Follow the instruction from here:
-
-[Deploying Django to AWS using ElasticBeanstalk (EB)](https://github.com/PaulleDemon/AWS-deployment/blob/master/deploying_django.md)
+This project is create for the tutotial [Deploying Django to AWS using ElasticBeanstalk (EB)](https://github.com/PaulleDemon/AWS-deployment/blob/master/deploying_django.md)
     
+This is a simple photo upload application where users can upload images.
 ### project structure:
 ```
 .
